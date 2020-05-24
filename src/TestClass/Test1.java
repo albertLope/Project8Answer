@@ -67,6 +67,5 @@ public class Test1 {
         Assert.assertEquals("Result should be 74748 but your result is " + total, 74748, total);
         Assert.assertEquals("Result should be 707 but your result is " +eachMonth, 707, eachMonth);
 
-
     }
 }

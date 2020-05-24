@@ -69,7 +69,6 @@ public class HousePrices extends Users {
         }
 
     }
-
     /*
         Create a method name is ConditionToPrice
         no parameter

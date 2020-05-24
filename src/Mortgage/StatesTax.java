@@ -25,5 +25,4 @@ public enum StatesTax {
         return tax;
     }
 
-
 }

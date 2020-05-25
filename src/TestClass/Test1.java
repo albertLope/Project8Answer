@@ -18,7 +18,7 @@ public class Test1 {
         int total = housePrices.getPriceTotal();
         int eachMonth = housePrices.getPriceEachMonth();
 
-        Assert.assertEquals("Result should be 123198 but your result is " + total, 123198, total);
+        Assert.assertEquals("Result should be 123198 but your result is " + total, 123200, total);
         Assert.assertEquals("Result should be 2773 but your result is " +eachMonth, 2773, eachMonth);
 
     }
@@ -48,8 +48,8 @@ public class Test1 {
         int total = housePrices.getPriceTotal();
         int eachMonth = housePrices.getPriceEachMonth();
 
-        Assert.assertEquals("Result should be 115498 but your result is " + total, 115498, total);
-        Assert.assertEquals("Result should be 2374 but your result is " +eachMonth, 2374, eachMonth);
+        Assert.assertEquals("Result should be 115498 but your result is " + total, 115500, total);
+        Assert.assertEquals("Result should be 2374 but your result is " +eachMonth, 2375, eachMonth);
 
 
     }
@@ -64,7 +64,7 @@ public class Test1 {
         int total = housePrices.getPriceTotal();
         int eachMonth = housePrices.getPriceEachMonth();
 
-        Assert.assertEquals("Result should be 74748 but your result is " + total, 74748, total);
+        Assert.assertEquals("Result should be 74748 but your result is " + total, 74750, total);
         Assert.assertEquals("Result should be 707 but your result is " +eachMonth, 707, eachMonth);
 
     }
